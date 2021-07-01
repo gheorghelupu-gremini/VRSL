@@ -1,0 +1,14 @@
+{
+    "name": "gheorghe/testWebinar",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestWebinar\\": "src/",
+            "TestWebinar\\Tests\\": "tests/"
+        }
+    },
+    "description": "TestWebinar"
+
+}
